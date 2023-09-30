@@ -1,0 +1,1 @@
+./installers/spdlog.sh $1 $2

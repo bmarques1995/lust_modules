@@ -38,6 +38,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]in_deps/
 [Ll]ogs/
 [Bb]in-int/
 [Dd]ependencies/
