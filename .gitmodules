@@ -1,3 +1,9 @@
 [submodule "modules/spdlog"]
 	path = modules/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "modules/vulkan_headers"]
+	path = modules/vulkan_headers
+	url = https://github.com/KhronosGroup/Vulkan-Headers.git
+[submodule "modules/vulkan_loader"]
+	path = modules/vulkan_loader
+	url = https://github.com/KhronosGroup/Vulkan-Loader.git
