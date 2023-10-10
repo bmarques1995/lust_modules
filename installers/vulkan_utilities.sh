@@ -12,7 +12,7 @@ fi
 
 if [ $passed ]; then
     if [ -n "$2" ]; then
-        cmake -S ./modules/vulkan_utilities -B ./lin_deps/vulkan_utilities -DUPDATE_DEPS=ON -DCMAKE_BUILD_TYPE="$1" -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=$2
+        cmake -S ./modules/vulkan_utilities -B ./lin_deps/vulkan_utilities -G Ninja -DUPDATE_DEPS=ON -DCMAKE_BUILD_TYPE="$1" -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_INSTALL_PREFIX=$2
         cmake --build ./lin_deps/vulkan_utilities --target install
     fi
 fi

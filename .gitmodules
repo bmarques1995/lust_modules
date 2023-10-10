@@ -31,3 +31,12 @@
 [submodule "modules/vulkan_tools"]
 	path = modules/vulkan_tools
 	url = https://github.com/LunarG/VulkanTools.git
+[submodule "modules/dxc"]
+	path = modules/dxc
+	url = https://github.com/microsoft/DirectXShaderCompiler
+[submodule "modules/vma"]
+	path = modules/vma
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "modules/d3d12ma"]
+	path = modules/d3d12ma
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator.git
