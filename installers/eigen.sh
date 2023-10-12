@@ -12,7 +12,7 @@ fi
 
 if [ $passed ]; then
     if [ -n "$2" ]; then
-        cmake -S ./modules/eigen3 -B ./dependencies/eigen3 -DCMAKE_BUILD_TYPE=$1 -DCMAKE_INSTALL_PREFIX=$2
-        cmake --build ./dependencies/eigen3 --target install
+        cmake -S ./modules/eigen3 -B ./lin_deps/eigen3 -DCMAKE_BUILD_TYPE=$1 -DCMAKE_INSTALL_PREFIX=$2
+        cmake --build ./lin_deps/eigen3 --target install
     fi
 fi
