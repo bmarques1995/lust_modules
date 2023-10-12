@@ -40,3 +40,6 @@
 [submodule "modules/d3d12ma"]
 	path = modules/d3d12ma
 	url = https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator.git
+[submodule "modules/eigen3"]
+	path = modules/eigen3
+	url = https://gitlab.com/libeigen/eigen.git

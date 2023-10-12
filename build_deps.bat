@@ -1,6 +1,7 @@
 @echo off
 
 call ./installers/spdlog %~1 %~2
+call ./installers/eigen %~1 %~2
 call ./installers/valijson %~1 %~2
 call ./installers/jsoncpp %~1 %~2
 call ./installers/vulkan_loader %~1 %~2
